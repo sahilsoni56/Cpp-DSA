@@ -38,12 +38,15 @@ int main() {
     fourth->next = fifth;
 
     // Print linked list
+    int len = 0;
     Node* current = first;
     while (current != nullptr) {
+        len++;
         cout << current->data << " ";
         current = current->next;
     }
     cout << endl;
+    cout << "Length of the linked list: " << len << endl;
 
   
 
