@@ -25,16 +25,27 @@ public:
 };
 
 
-void  insertAtHead(Node* head,int data){
-  Node* newNode = new Node(data);
-  newNode->next = head;
-  head = newNode;
+void  insertAtTail(Node* &head, Node* &tail,int data){
+            Node* newNode = new Node(data);
+                    newNode->next = NULL;
+
+
+    if(head == NULL && tail == NULL){
+        head = newNode;
+        tail = newNode;
+
+    }else{
+        tail->next = newNode;
+        tail = newNode;
+    }
+
 }
 
 void printLL(Node* head){
     Node* temp = head;
     while(temp != NULL){
         cout<<temp->data<<"->";
+        temp = temp->next;
     }
 }
 
@@ -44,7 +55,7 @@ int main() {
     Node* third = new Node(24);
     Node* fourth = new Node(62);
     Node* fifth = new Node(98);
-    
+    Node* tail = fifth;
     // Example of linking nodes
     first->next = second;
     second->next = third;
@@ -54,8 +65,10 @@ int main() {
     // Print linked list
     Node* current = first;
     printLL(current);
-    insertAtHead(first,500);
-    printLL(first);
+    cout<<endl;
+    insertAtTail(current, tail,500);
+   printLL(first);
+
 
   
 
