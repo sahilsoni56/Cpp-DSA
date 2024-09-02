@@ -25,7 +25,7 @@ public:
 };
 
 
-void  insertAtHead(Node* head,int data){
+void  insertAtHead(Node* &head,int data){
   Node* newNode = new Node(data);
   newNode->next = head;
   head = newNode;
@@ -50,7 +50,7 @@ int main() {
     second->next = third;
     third->next = fourth;
     fourth->next = fifth;
-
+    
     // Print linked list
     Node* current = first;
     printLL(current);
