@@ -49,6 +49,18 @@ void insertAThead(node*& head, node*& tail, int data) {
     }
 }
 
+void insertATTail(node*& head, node*& tail, int data) {
+    node* newNode = new node(data);
+    if (head == NULL) {
+        head = newNode;
+        tail = newNode;
+    } else {
+        tail->next = newNode;
+        newNode->prev = tail;
+        newNode->next = NULL;
+    }
+}
+
 int main() {
     node* head = new node(1);
     head->next = new node(2);
@@ -65,6 +77,7 @@ int main() {
     printLL(head);
 
     insertAThead(head, tail, 10);
+    insertATTail(head, tail, 10);
 
     cout << "List after inserting at the head: "<<endl;
     printLL(head);
