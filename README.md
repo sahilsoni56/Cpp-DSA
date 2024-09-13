@@ -14,22 +14,3 @@ This repository contains a curated collection of **LeetCode questions** and solu
 
 
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0125-valid-palindrome](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0125-valid-palindrome) |
-## String
-|  |
-| ------- |
-| [0125-valid-palindrome](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0125-valid-palindrome) |
-## Linked List
-|  |
-| ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0025-reverse-nodes-in-k-group) |
-## Recursion
-|  |
-| ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0025-reverse-nodes-in-k-group) |
-<!---LeetCode Topics End-->
