@@ -15,14 +15,3 @@ This repository contains a curated collection of **LeetCode questions** and solu
 
 
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0020-valid-parentheses) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/sahilsoni56/Cpp-DSA/tree/master/0020-valid-parentheses) |
-<!---LeetCode Topics End-->
